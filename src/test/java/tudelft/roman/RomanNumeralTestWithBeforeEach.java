@@ -22,7 +22,7 @@ public class RomanNumeralTestWithBeforeEach {
     @Test
     public void numberWithManyDigits() {
         int result = roman.convert("VIII");
-        Assertions.assertEquals(8, result);
+        Assertions.assertEquals(9, result);
     }
 
     @Test
